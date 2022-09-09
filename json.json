@@ -5,7 +5,8 @@
       "status": "",
       "avatar": "avatar.png",
       "bg": "frontend.png",
-      "name": " Малашенков Антон",
+      "name": "Малашенков Антон",
+      "position": "Frontend-разработчик",
       "title": "Frontend-разработчик, Vue JS",
       "array": [
         {
@@ -52,18 +53,6 @@
         {
           "service": "telegram",
           "link": "https://t.me/xopoiii "
-        },
-        {
-          "service": "twitter",
-          "link": "https://twitter.com/xopoiii "
-        },
-        {
-          "service": "github",
-          "link": "https://github.com/xopoiii"
-        },
-        {
-          "service": "gitlab",
-          "link": "https://gitlab.com/xopoiii"
         }
       ],
       "blocks": [
@@ -102,7 +91,7 @@
               ]
             },
             {
-              "logoUrl": "",
+              "logoUrl": "avatar.png",
               "nameSubject": "КриптоЦентр",
               "location": "Владивосток",
               "title": "Fullstack-разработчик",
@@ -127,7 +116,7 @@
               ]
             },
             {
-              "logoUrl": "",
+              "logoUrl": "avatar.png",
               "nameSubject": "ТВ Центр - Лица 23",
               "location": "Владивосток",
               "title": "Fullstack-разработчик",
@@ -194,7 +183,7 @@
               ]
             },
             {
-              "logoUrl": "https://kttc.ru/images/logo/kttc_logo.svg",
+              "logoUrl": "https://kttc.ru/images/logo/kttc_logo_small.svg",
               "nameSubject": "Игровая статистика World of Tanks",
               "title": "Full-stack разработчик",
               "link": "https://kttc.ru",
