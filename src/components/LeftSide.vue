@@ -7,7 +7,7 @@ const { information, skills } = props.leftSide;
 <template>
   <div class="space-y-5 print:hidden">
     <div class="block-section overflow-hidden">
-      <div class="h-32 bg-auto bg-center" :style="`background-image: url('${information.bg}')`" />
+      <div class="h-32 bg-auto bg-center bg-black" />
       <div class="pt-14 p-7 relative">
         <span v-if="information.status" class="status-badge">{{ information.status }}</span>
         <img :src="information.avatar" alt="Avatar" class="user-photo">
