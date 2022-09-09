@@ -40,7 +40,7 @@ const activeBlock = ref<string | 'resume' | 'project'>(hash[1] || 'resume');
         <h2>{{ item.titleBlock }}</h2>
         <div class="mb-5 item-section" v-for="(block, i) in item.blocks" :key="block.title">
           <template v-if="block.nameSubject">
-            <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-cover print:hidden" :style="`background-image: url('${block.logoUrl}');`" />
+            <div v-if="block.logoUrl" class="flex-shrink-0 w-12 h-12 rounded-xl bg-cover print:hidden" :style="`background-image: url('${block.logoUrl}');`" />
             <div class="w-full space-y-5">
               <div class="item-header items-end">
                 <div class="space-y-1.5">

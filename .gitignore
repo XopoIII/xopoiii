@@ -1,0 +1,46 @@
+# dependencies
+app/node_modules
+node_modules
+mongo-volume
+mariadb
+redis
+
+# logs
+app/npm-debug.log
+npm-debug.log
+package-lock.json
+
+# Nuxt build
+.nuxt
+app/.nuxt
+
+# Nuxt generate
+dist
+app/dist
+
+.DS_Store
+app/node_modules/
+app/npm-debug.log*
+app/yarn-debug.log*
+app/yarn-error.log*
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.pem
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# other
+.env
+docker-compose.override.yml
+app/.eslintcache
+.yarn
+.yarnrc
+.yarnrc.yml
