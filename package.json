@@ -1,0 +1,24 @@
+{
+  "name": "xopoiii.ru",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npx push-dir --dir=dist --branch=gh-pages"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.1.8",
+    "vue": "^3.2.39"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "autoprefixer": "^10.4.8",
+    "less": "^4.1.3",
+    "postcss": "^8.4.16",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.13"
+  }
+}
