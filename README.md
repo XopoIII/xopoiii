@@ -1,2 +1,3 @@
-# xopoiii.ru
-resume
+# Resume
+
+About me [xopoiii.ru](https://xopoiii.ru).
