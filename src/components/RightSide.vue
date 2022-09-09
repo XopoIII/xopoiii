@@ -11,11 +11,6 @@ const activeBlock = ref<string | 'resume' | 'project'>(hash[1] || 'resume');
     <div class="p-7 pb-0 block-section">
       <h2>{{ about.titleBlock }}</h2>
       <p class="text-gray-600 mb-5">{{ about.bio }}</p>
-      <div class="flex flex-col items-center">
-        <img src ="https://github-readme-stats.vercel.app/api?username=rookmeister&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs&bg_color=00000000">
-        <img src ="https://github-readme-stats.vercel.app/api/top-langs/?username=rookmeister&layout=compact&hide_border=true&theme=darcula&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php">
-        <img src ="https://github-readme-streak-stats.herokuapp.com?user=rookmeister&theme=darcula&hide_border=true&background=FFFFFF00">
-      </div>
       <div class="flex flex-col space-y-4">
         <a :href="`mailto:${about.mail}`" class="mail-link social-link-hover">
           <i class="bx bx-at text-xl"></i>
